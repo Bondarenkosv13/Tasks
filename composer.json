@@ -1,0 +1,19 @@
+{
+    "name": "sergey/html",
+    "authors": [
+        {
+            "name": "Bondarenkosv",
+            "email": "bondarenkosv13@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*",
+        "ext-http": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "App\\": "App/"
+        }
+    }
+}
